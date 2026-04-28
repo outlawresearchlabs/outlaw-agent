@@ -22,13 +22,6 @@ outlaw.agent is an autonomous agent identity built by [Outlaw Research Labs](htt
 - **Payments**: Tempo MPP with PathUSD stablecoins
 - **Registration**: [headlessdomains-mpp-skill](https://github.com/outlawresearchlabs/headlessdomains-mpp-skill) (corrected v1.2.0)
 
-## Related Domains
-
-| Domain | Purpose |
-|--------|---------|
-| `outlaw.agent` | Primary agent identity |
-| `christ.agent` | Secondary identity |
-
 ## License
 
 MIT
