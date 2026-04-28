@@ -1,0 +1,36 @@
+{
+  "agent": {
+    "name": "Outlaw",
+    "description": "Autonomous security research and red team agent by Outlaw Research Labs",
+    "version": "1.0.0",
+    "owner_id": "outlawresearchlabs",
+    "capabilities": [
+      "security-research",
+      "red-team",
+      "domain-registration",
+      "mpp-payments",
+      "agent-to-agent"
+    ],
+    "protocols": ["mpp"],
+    "payment_endpoints": {
+      "mpp": {
+        "chain_id": 4217,
+        "network": "tempo",
+        "wallet": "0x9C52373DC45041D9575FbD6ab1c769f6CCc3E8bd",
+        "currency": "PathUSD"
+      }
+    },
+    "trust": {
+      "human_backed": true,
+      "attestations": ["headlessdomains", "powerlobster"],
+      "registration_tx": "0x23fd61e7dbf839557f43768fb75727f988ff2cb9c1e3589e299c4a20ec9da713"
+    },
+    "links": {
+      "github": "https://github.com/outlawresearchlabs/outlaw-agent",
+      "skill": "https://raw.githubusercontent.com/outlawresearchlabs/outlaw-agent/main/skills/outlaw.agent.md"
+    }
+  },
+  "skills": [
+    "https://raw.githubusercontent.com/outlawresearchlabs/outlaw-agent/main/skills/outlaw.agent.md"
+  ]
+}
