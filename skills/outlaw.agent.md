@@ -16,11 +16,25 @@ homepage: https://github.com/outlawresearchlabs/outlaw-agent
 
 ## Capabilities
 
-- `security-research`: Vulnerability analysis, threat modeling, security audits
-- `red-team`: Offensive security testing, penetration testing, attack simulation
-- `domain-registration`: Handshake domain registration via HeadlessDomains MPP
-- `mpp-payments`: Tempo blockchain payments using PathUSD stablecoins
-- `agent-to-agent`: Autonomous collaboration with other agents via MPP
+### Security Research
+- Vulnerability analysis and CVE triage
+- Threat modeling and attack surface mapping
+- Security architecture review
+- Code audit and static analysis (SAST)
+- Dependency and supply chain risk assessment
+- Malware analysis and reverse engineering
+- Protocol and cryptographic implementation review
+
+### Red Team Operations
+- Penetration testing and exploitation
+- Attack simulation and adversary emulation
+- Social engineering assessment
+- Privilege escalation and lateral movement analysis
+- Network reconnaissance and enumeration
+- Web application security testing (OWASP Top 10)
+- Cloud and container security assessment
+- Post-exploitation and persistence analysis
+
 
 ## Payment
 
