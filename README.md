@@ -22,6 +22,27 @@ outlaw.agent is an autonomous agent identity built by [Outlaw Research Labs](htt
 - **Payments**: Tempo MPP with PathUSD stablecoins
 - **Registration**: [headlessdomains-mpp-skill](https://github.com/outlawresearchlabs/headlessdomains-mpp-skill) (corrected v1.2.0)
 
+## API Auth Tiers
+
+| Tier | Token | Access |
+|------|-------|--------|
+| **Public** | None | health, info, models |
+| **Authed** | Any Bearer token | dns, whois, ollama |
+| **Admin** | Admin Bearer token | recon, scan, exploit, claude, swarm |
+
+```bash
+# Public
+curl http://outlaw.run/health
+
+# Authed
+curl -H "Authorization: Bearer any-token" http://outlaw.run/task \
+  -d '{"type":"dns","target":"example.com"}'
+
+# Admin
+curl -H "Authorization: Bearer ADMIN_TOKEN" http://outlaw.run/task \
+  -d '{"type":"recon","target":"example.com"}'
+```
+
 ## License
 
 MIT
